@@ -4,7 +4,7 @@
   --light: #ffffff;
   --danger:  #f80000;
   --grey: #eeeeee;
-  --bg: #fafafb;
+  --plain: #fafafb;
   --dark:  #405d6d;
   --accent:  #f2f9ff;
   --purple: #946899;
@@ -13,7 +13,7 @@
 body{
 	margin: 0;
 	color: var(--dark) !important;
-	background: var(--bg);
+	background: var(--plain);
 }
 
 .sidenav {
@@ -26,7 +26,7 @@ body{
 	background-color: var(--light);
 	overflow-x: hidden;
 	padding-top: 20px;
-	border-right: 1px solid var(--dark);
+	box-shadow: 2px 0px 0px var(--grey);
   }
   
   .sidenav a {
@@ -39,8 +39,7 @@ body{
   }
   
   .main {
-	margin-left: 200px;
-	min-height: 654px;
+	margin:  20px 0px 0px 200px;
   }
   
   @media screen and (max-height: 450px) {
@@ -75,11 +74,11 @@ body{
 	color: var(--danger) !important;
 }
 
-.stats-card{
+.user-stats{
 	text-align: center !important;
 }
 
-.stats-card .circle-icon{
+.user-stats .circle-icon{
 	margin: 0 30%;
 	width: 50px;
 	height: 50px;

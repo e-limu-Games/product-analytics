@@ -70,6 +70,11 @@ body{
 .table.traffic-stats tr td{
 	margin: 0 !important;
 	padding: 0 !important;
+	vertical-align: center !important;
+}
+
+.rate{
+	padding-left: 50px !important;
 }
 
 .card{
